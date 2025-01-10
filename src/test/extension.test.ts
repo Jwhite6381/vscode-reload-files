@@ -2,6 +2,8 @@ import * as assert from "node:assert";
 import * as vscode from "vscode";
 import path from "node:path";
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 suite("Extension Test Suite", () => {
   test("Single File Reload", async () => {
     const uri = vscode.Uri.file(
@@ -36,6 +38,8 @@ suite("Extension Test Suite", () => {
 
     // call "File: reload" command
     await vscode.commands.executeCommand("reload-files.reload.file");
+
+    await sleep(1000); // wait for the file to reload, TODO: find a better way to get notified when the file is reloaded
 
     // check if editor content is reverted
     const editorContentAfterReload = editor.document.getText();
