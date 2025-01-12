@@ -4,6 +4,11 @@ All notable changes to the "reload-files" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.0] - 2025-01-12
+
+### Fixed
+- Readme screenshots
+
 ## [1.0.0] - 2025-01-10
 
 ### Added
@@ -12,3 +17,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Reload files in the editor by picking "File: Reload" within the command pallete.
 
 [1.0.0]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v1.0.0
+[1.0.1]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v1.0.1
