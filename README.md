@@ -6,13 +6,16 @@ It adds what it's suggested to be missing in [vscode#179083](https://github.com/
 ## Features
 
 Reload files in the editor by right-clicking on the file tab and selecting `Reload` from the context menu.
-\!\[Context Menu\]\(docs/editor-file-context-menu.png\)
+
+![Context Menu](docs/editor-file-context-menu.png)
 
 Reload files in the editor by clicking the `Reload 🔃` in the editor title bar.
-\!\[Title Bar\]\(docs/editor-title-bar.png\)
+
+![Title Bar](docs/editor-title-bar.png)
 
 Reload files in the editor by picking "File: Reload" within the command pallete.
-\!\[Command Pallete\]\(docs/command-pallete.png\)
+
+![Command Pallete](docs/command-pallete.png)
 
 ## Release Notes
 
