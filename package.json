@@ -2,8 +2,9 @@
   "name": "vscode-reload-files",
   "displayName": "vscode-reload-files",
   "description": "better UX for reloading files in VS Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "DoradSoft",
+  "icon": "images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/doradsoft/vscode-reload-files"
